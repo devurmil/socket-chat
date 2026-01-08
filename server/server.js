@@ -85,5 +85,5 @@ io.on("connection", (socket) => {
 });
 
 server.listen(1080, () => 
-    console.log("Backend running on http://localhost:1080")
+    console.log("Backend running on port 1080")
 );
